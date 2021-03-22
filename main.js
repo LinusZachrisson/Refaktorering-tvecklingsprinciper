@@ -2,9 +2,13 @@
 
 let cars = ['volvo', 'saab', 'bmw', 'tesla']; 
 
-for(car in cars) {
-    console.log(cars[car]);
-}
+// for(car in cars) {
+//     console.log(cars[car]);
+// }
+
+cars.forEach((car)=> {
+    console.log(car);
+})
 
 //KOD 2
 

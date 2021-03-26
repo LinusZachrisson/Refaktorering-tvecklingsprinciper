@@ -2,20 +2,15 @@
 
 let cars = ["volvo", "saab", "bmw", "tesla"];
 
-// for(car in cars) {
-//     console.log(cars[car]);
-// }
-
 cars.forEach((car) => {
   console.log(car);
 });
 
 //KOD 2
 
-//let cars = ['volvo', 'saab', 'bmw', 'tesla'];
 let fruits = ["apple", "banana", "orange"];
 
-let carsAndFruits = cars.concat(fruits);
+let carsAndFruits = [...cars, ...fruits];
 console.log(carsAndFruits);
 
 //KOD 3
